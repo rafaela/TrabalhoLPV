@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="500.0" minHeight="500.0" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.academia.controller.GraficoBarraController">
+   <children>
+      <ComboBox fx:id="comboCliente" layoutX="55.0" layoutY="40.0" prefWidth="150.0" promptText="Cliente" />
+      <DatePicker fx:id="pickerInicial" layoutX="55.0" layoutY="78.0" prefHeight="25.0" prefWidth="150.0" promptText="Data Inicial" />
+      <DatePicker fx:id="pickerFinal" layoutX="218.0" layoutY="78.0" prefHeight="25.0" prefWidth="150.0" promptText="Data Final" />
+      <ComboBox fx:id="comboItem" layoutX="384.0" layoutY="78.0" onAction="#graficoBarra" prefWidth="150.0" promptText="Item" />
+      <Pane fx:id="pane" layoutX="14.0" layoutY="103.0" prefHeight="340.0" prefWidth="973.0" />
+      <ComboBox fx:id="comboExercicio" layoutX="384.0" layoutY="40.0" prefHeight="25.0" prefWidth="150.0" promptText="Exercício" />
+      <Button layoutX="218.0" layoutY="40.0" mnemonicParsing="false" onAction="#carregarDados" prefHeight="25.0" prefWidth="150.0" text="Pesquisar" />
+   </children>
+</AnchorPane>

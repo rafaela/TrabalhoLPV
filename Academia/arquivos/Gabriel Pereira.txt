@@ -1,0 +1,19 @@
+Exercício: Futsal
+
+------ Usuário ------
+Nome: Gabriel Pereira
+Sexo: masculino
+Altura: 1,70 m
+Peso: 61,0 Kg
+Data de nascimento: 19/08/1997
+E-mail: gabriellr1908@gmail.com
+CPF: 175.415.430-12
+WhatsApp: (31) 99975-1245
+
+------ Detalhes do exercício ------
+Data: 22/05/2018
+Tempo: 19:50 - 20:30
+Duração: 00:40:00
+Distância: 3,61 Km
+Calorias perdidas: 580 Kcal
+Passos: 1.267

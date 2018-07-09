@@ -1,0 +1,19 @@
+Exercício: Handball
+
+------ Usuário ------
+Nome: Maria Antonia
+Sexo: feminino
+Altura: 1,57 m
+Peso: 65,0 Kg
+Data de nascimento: 19/02/1969
+E-mail: maria.antonia@gmail.com
+CPF: 122.264.470-32
+WhatsApp: (31) 99475-6245
+
+------ Detalhes do exercício ------
+Data: 29/05/2018
+Tempo: 17:20 - 18:30
+Duração: 01:10:00
+Distância: 5,22 Km
+Calorias perdidas: 625 Kcal
+Passos: 3.154

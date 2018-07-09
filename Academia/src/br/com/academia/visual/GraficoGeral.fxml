@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.academia.controller.GraficoGeralController">
+   <children>
+      <ComboBox fx:id="comboCliente" layoutX="55.0" layoutY="25.0" prefWidth="150.0" promptText="Cliente" />
+      <DatePicker fx:id="pickerInicial" layoutX="218.0" layoutY="25.0" prefHeight="25.0" prefWidth="150.0" promptText="Data Inicial" />
+      <DatePicker fx:id="pickerFinal" layoutX="388.0" layoutY="25.0" prefHeight="25.0" prefWidth="150.0" promptText="Data Final" />
+      <ComboBox fx:id="comboItem" layoutX="555.0" layoutY="25.0" onAction="#graficoBarra" prefWidth="150.0" promptText="Item" />
+      <Pane fx:id="pane" layoutX="40.0" layoutY="75.0" prefHeight="350.0" prefWidth="512.0" />
+      <Label fx:id="textoLegenda" layoutX="599.0" layoutY="122.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

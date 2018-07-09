@@ -1,0 +1,19 @@
+Exercício: Futebol
+
+------ Usuário ------
+Nome: Guilherme Magnus
+Sexo: masculino
+Altura: 1,77 m
+Peso: 45,0 Kg
+Data de nascimento: 19/02/1969
+E-mail: guigui.perigoso@gmail.com
+CPF: 162.452.470-20
+WhatsApp: (32) 98404-1200
+
+------ Detalhes do exercício ------
+Data: 29/05/2018
+Tempo: 17:20 - 18:30
+Duração: 01:10:00
+Distância: 5,22 Km
+Calorias perdidas: 625 Kcal
+Passos: 3.154

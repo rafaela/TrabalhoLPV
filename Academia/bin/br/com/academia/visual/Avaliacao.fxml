@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.academia.controller.AvaliacaoController">
+   <top>
+      <MenuBar fx:id="menu" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu fx:id="item" mnemonicParsing="false" styleClass="btn-color-text" text="Arquivo">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#chamaImportaArquivo" text="Importar Arquivo" />
+            </items>
+          </Menu>
+            <Menu fx:id="item" mnemonicParsing="false" styleClass="btn-color-text" text="Cliente">
+              <items>
+                <MenuItem fx:id="clienteMenuItem" mnemonicParsing="false" onAction="#chamaCliente" text="Cliente" />
+                  <MenuItem mnemonicParsing="false" onAction="#chamaPesquisarCliente" text="Pesquisar" />
+              </items>
+            </Menu>
+            <Menu fx:id="item" mnemonicParsing="false" styleClass="btn-color-text" text="Atividades">
+              <items>
+                <MenuItem fx:id="atividadeMenu" mnemonicParsing="false" onAction="#chamaAtividadeSimples" text="Atividades" />
+                  <MenuItem mnemonicParsing="false" onAction="#chamaPesquisarAtividade" text="Pesquisa Atividade" />
+                  <MenuItem mnemonicParsing="false" onAction="#chamaAtividadeCliente" text="Pesquisa por cliente" />
+              </items>
+            </Menu>
+          <Menu fx:id="item" mnemonicParsing="false" styleClass="btn-color-text" text="Grafico">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#chamaGraficoBarra" text="Gráfico de Barras" />
+                  <MenuItem mnemonicParsing="false" text="Gráfico de Linha" />
+                  <MenuItem mnemonicParsing="false" onAction="#chamaGraficoGeral" text="Gráfico Geral" />
+            </items>
+          </Menu>
+          <Menu fx:id="item" mnemonicParsing="false" styleClass="btn-color-text" text="Relatório">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#chamaRelatorio" text="Gerar relatório" />
+            </items>
+          </Menu>
+            <Menu fx:id="item" mnemonicParsing="false" styleClass="btn-color-text" text="Usuario">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#chamaUsuario" text="Usuarios" />
+                  <MenuItem mnemonicParsing="false" onAction="#sair" text="Sair" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

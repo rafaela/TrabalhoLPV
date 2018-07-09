@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="717.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.academia.controller.UsuarioController">
+   <children>
+      <SplitPane dividerPositions="0.5903614457831325" layoutX="89.0" layoutY="113.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane id="fundo" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label layoutX="248.0" layoutY="66.0" text="Usuario" />
+                  <TextField fx:id="tfUsuario" layoutX="299.0" layoutY="62.0" prefHeight="25.0" prefWidth="174.0" />
+                  <TextField fx:id="tfPapel" layoutX="299.0" layoutY="133.0" prefHeight="25.0" prefWidth="174.0" />
+                  <Label layoutX="250.0" layoutY="102.0" text="Senha" textAlignment="RIGHT" />
+                  <Button fx:id="btn" layoutX="264.0" layoutY="233.0" mnemonicParsing="false" onAction="#adiciona" onMouseClicked="#onMouseClicked" prefHeight="25.0" prefWidth="75.0" text="Gravar" />
+                  <Button layoutX="348.0" layoutY="233.0" mnemonicParsing="false" onAction="#limparDados" prefHeight="25.0" prefWidth="75.0" text="Cancelar" />
+                  <Text fx:id="textCliente" layoutX="391.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                  <Button fx:id="remover" layoutX="433.0" layoutY="233.0" mnemonicParsing="false" onAction="#remove" prefHeight="25.0" prefWidth="75.0" text="Remover" />
+                  <Label layoutX="250.0" layoutY="137.0" text="Papel" />
+                  <PasswordField fx:id="pfSenha" layoutX="299.0" layoutY="98.0" prefHeight="25.0" prefWidth="174.0" />
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TableView fx:id="tabela" layoutX="14.0" layoutY="-2.0" onMouseClicked="#onMouseClicked" prefHeight="346.0" prefWidth="998.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="usuarioCol" prefWidth="113.0" text="Nome" />
+                        <TableColumn fx:id="papelCol" prefWidth="374.0" resizable="false" text="Papel" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                     </padding>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
